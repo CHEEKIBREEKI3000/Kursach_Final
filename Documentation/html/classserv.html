@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Server: Класс serv</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Server
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="classserv-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс serv</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс в котором находится обмен данным с клиентом и совершение подсчётов  
+ <a href="classserv.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="header_8h_source.html">header.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:abeef0979bba25016081317a44aad3ce5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserv.html#abeef0979bba25016081317a44aad3ce5">get_anything</a> (string ip, string port)</td></tr>
+<tr class="memdesc:abeef0979bba25016081317a44aad3ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">передача и обработка информации между сервером и клиентом  <a href="classserv.html#abeef0979bba25016081317a44aad3ce5">Подробнее...</a><br /></td></tr>
+<tr class="separator:abeef0979bba25016081317a44aad3ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3030ccca099537e33aa2c2be007e5887"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserv.html#a3030ccca099537e33aa2c2be007e5887">srednee</a> (long int sum, uint32_t sred, uint32_t kolvo)</td></tr>
+<tr class="memdesc:a3030ccca099537e33aa2c2be007e5887"><td class="mdescLeft">&#160;</td><td class="mdescRight">вычисление среднего арифметического по вектору который передаёт клиент  <a href="classserv.html#a3030ccca099537e33aa2c2be007e5887">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3030ccca099537e33aa2c2be007e5887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f293c236492c314902461b52b62c9a9"><td class="memItemLeft" align="right" valign="top">long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserv.html#a2f293c236492c314902461b52b62c9a9">summa</a> (long int sum, uint32_t vect)</td></tr>
+<tr class="memdesc:a2f293c236492c314902461b52b62c9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">вычисление суммы элеиентов вектора для последующего вычисления среднего арифметического значения вектора  <a href="classserv.html#a2f293c236492c314902461b52b62c9a9">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2f293c236492c314902461b52b62c9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a1a8fc72be294c97b9a6c2089961f0482"><td class="memItemLeft" align="right" valign="top"><a id="a1a8fc72be294c97b9a6c2089961f0482"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>file_name</b></td></tr>
+<tr class="separator:a1a8fc72be294c97b9a6c2089961f0482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e7618877b724bbfe64d03c3fe7edab"><td class="memItemLeft" align="right" valign="top"><a id="a79e7618877b724bbfe64d03c3fe7edab"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>dump_name</b></td></tr>
+<tr class="separator:a79e7618877b724bbfe64d03c3fe7edab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ee2c1f968ec105e3d27f6d584d36ef"><td class="memItemLeft" align="right" valign="top"><a id="aa9ee2c1f968ec105e3d27f6d584d36ef"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>ip</b></td></tr>
+<tr class="separator:aa9ee2c1f968ec105e3d27f6d584d36ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8353097d07152574815f5d4423347203"><td class="memItemLeft" align="right" valign="top"><a id="a8353097d07152574815f5d4423347203"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>port</b></td></tr>
+<tr class="separator:a8353097d07152574815f5d4423347203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс в котором находится обмен данным с клиентом и совершение подсчётов </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="abeef0979bba25016081317a44aad3ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeef0979bba25016081317a44aad3ce5">&#9670;&nbsp;</a></span>get_anything()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int serv::get_anything </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>передача и обработка информации между сервером и клиентом </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ip</td><td>айпи адрес по которому будет устанавливаться соединение с клиентом </td></tr>
+    <tr><td class="paramname">port</td><td>порт по которому будет устанавливаться соединение с клиентом</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>сначала открываем файлы с юзерами и дамп файл для записи в него ошибок </p><div class="fragment"><div class="line">ofstream dump;</div>
+<div class="line">dump.open(dump_name, ios_base::app);</div>
+<div class="line"> </div>
+<div class="line">ifstream file(file_name);</div>
+</div><!-- fragment --><p> далее мы получаем пароль и пользователя из файла </p><div class="fragment"><div class="line">getline(file, imya, <span class="charliteral">&#39;:&#39;</span>);</div>
+<div class="line">getline(file, pass);</div>
+</div><!-- fragment --><p> Инициализаруем сокет </p><div class="fragment"><div class="line"><span class="keywordtype">int</span> s = socket(AF_INET, SOCK_STREAM, 0);</div>
+</div><!-- fragment --><p> Далее создаём структуру с введённым адресом и портом </p><div class="fragment"><div class="line">sockaddr_in * self_addr = <span class="keyword">new</span> (sockaddr_in);</div>
+<div class="line">self_addr-&gt;sin_family = AF_INET;</div>
+<div class="line">self_addr-&gt;sin_port = htons(port2);</div>
+<div class="line">self_addr-&gt;sin_addr.s_addr = inet_addr(ip_chars);</div>
+</div><!-- fragment --><p> Производим бинд адреса </p><div class="fragment"><div class="line"><span class="keywordtype">int</span> b = bind(s,(<span class="keyword">const</span> sockaddr*) self_addr,<span class="keyword">sizeof</span>(sockaddr_in));</div>
+</div><!-- fragment --><p> Производим соединение с клиентом </p><div class="fragment"><div class="line">sockaddr_in * client_addr = <span class="keyword">new</span> sockaddr_in;</div>
+<div class="line">socklen_t len = <span class="keyword">sizeof</span> (sockaddr_in);</div>
+<div class="line"><span class="keywordtype">int</span> work_sock = accept(s, (sockaddr*)(client_addr), &amp;len);</div>
+</div><!-- fragment --><p> Если соединение прошло успешно, производится обмен данными и их обработка Для начала создаётся HASH, из пароля и соли хранящихся на сервере </p><div class="fragment"><div class="line"><span class="keywordtype">string</span> HASH = SALT+pass;</div>
+<div class="line">Weak::MD5 hash;</div>
+<div class="line">StringSource(HASH, <span class="keyword">true</span>,<span class="keyword">new</span> HashFilter(hash,<span class="keyword">new</span> HexEncoder(<span class="keyword">new</span> StringSink(digest))));</div>
+</div><!-- fragment --><p> Далее сервер принимает от клиента имя и сравнивает его с тем, которое хранится в файле Если всё прошло успешно, сервер отправляет соль и ожидает сформированный HASH от клиента Далее сервер сравнивает HASH который хранится на сервере, и HASH который отправил клиент В случае успеха, сервер отправляет сообщение об успехе и переходит в режим принятия векторов и их характеристик, а так же их последующей обработки </p><div class="fragment"><div class="line"><span class="keywordflow">for</span>(uint32_t j=0; j&lt;kolvo; j++){</div>
+<div class="line">      sum = 0;</div>
+<div class="line">      sred = 0;</div>
+<div class="line">      <span class="comment">//получение размера вектора</span></div>
+<div class="line">      recv(work_sock, &amp;numb, <span class="keyword">sizeof</span>(numb), 0);</div>
+<div class="line">      cout&lt;&lt;<span class="stringliteral">&quot;размер вектора: &quot;</span>&lt;&lt;numb&lt;&lt;endl;</div>
+<div class="line">      cout &lt;&lt; <span class="stringliteral">&quot;вектор номер &quot;</span> &lt;&lt; j+1 &lt;&lt; <span class="charliteral">&#39;:&#39;</span>&lt;&lt; endl;</div>
+<div class="line">      <span class="keywordflow">for</span>(uint32_t i=0; i&lt;numb; i++){</div>
+<div class="line">          <span class="comment">//получение элемента вектора</span></div>
+<div class="line">          recv(work_sock, &amp;vect, <span class="keyword">sizeof</span>(vect), 0);</div>
+<div class="line">          cout &lt;&lt; vect&lt;&lt;<span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line">          sum = <a class="code" href="classserv.html#a2f293c236492c314902461b52b62c9a9">summa</a>(sum, vect);</div>
+<div class="line">      }</div>
+<div class="line">      <span class="comment">//создание и отправка среднего значения вектора</span></div>
+<div class="line">      sred = <a class="code" href="classserv.html#a3030ccca099537e33aa2c2be007e5887">srednee</a>(sum, kolvo, sred);</div>
+<div class="line">      send(work_sock,&amp;sred,<span class="keyword">sizeof</span>(sred),0);</div>
+<div class="line">      cout &lt;&lt;endl&lt;&lt; <span class="stringliteral">&quot;среднее вектора &quot;</span> &lt;&lt; sred&lt;&lt; endl&lt;&lt;endl;</div>
+<div class="ttc" id="aclassserv_html_a2f293c236492c314902461b52b62c9a9"><div class="ttname"><a href="classserv.html#a2f293c236492c314902461b52b62c9a9">serv::summa</a></div><div class="ttdeci">long int summa(long int sum, uint32_t vect)</div><div class="ttdoc">вычисление суммы элеиентов вектора для последующего вычисления среднего арифметического значения вект...</div><div class="ttdef"><b>Definition:</b> asd.cpp:34</div></div>
+<div class="ttc" id="aclassserv_html_a3030ccca099537e33aa2c2be007e5887"><div class="ttname"><a href="classserv.html#a3030ccca099537e33aa2c2be007e5887">serv::srednee</a></div><div class="ttdeci">uint32_t srednee(long int sum, uint32_t sred, uint32_t kolvo)</div><div class="ttdoc">вычисление среднего арифметического по вектору который передаёт клиент</div><div class="ttdef"><b>Definition:</b> asd.cpp:29</div></div>
+</div><!-- fragment --><p> После окончания обмена данными с клиентом, сервер завершат свою работу, закрывает сокет и закрывает файлы с данными </p><div class="fragment"><div class="line">close(s);</div>
+<div class="line"> </div>
+<div class="line">dump.close();</div>
+<div class="line">file.close();</div>
+</div><!-- fragment --> <dl class="section return"><dt>Возвращает</dt><dd>0 </dd></dl>
+
+</div>
+</div>
+<a id="a3030ccca099537e33aa2c2be007e5887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3030ccca099537e33aa2c2be007e5887">&#9670;&nbsp;</a></span>srednee()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t serv::srednee </td>
+          <td>(</td>
+          <td class="paramtype">long int&#160;</td>
+          <td class="paramname"><em>sum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>sred</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>kolvo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>вычисление среднего арифметического по вектору который передаёт клиент </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sum</td><td>сумма векторов </td></tr>
+    <tr><td class="paramname">sred</td><td>среднее арифметическое векторов </td></tr>
+    <tr><td class="paramname">kolvo</td><td>размер вектора передаваемого клиентом</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Происходит вычисление среднего арфметического вектора, посредством деления суммы элементов вектора на размер самого вектора </p><div class="fragment"><div class="line">sred = sum/kolvo;</div>
+</div><!-- fragment --> <dl class="section return"><dt>Возвращает</dt><dd>среднее квадратическое вектора который передаёт клиент </dd></dl>
+
+</div>
+</div>
+<a id="a2f293c236492c314902461b52b62c9a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f293c236492c314902461b52b62c9a9">&#9670;&nbsp;</a></span>summa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long int serv::summa </td>
+          <td>(</td>
+          <td class="paramtype">long int&#160;</td>
+          <td class="paramname"><em>sum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>vect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>вычисление суммы элеиентов вектора для последующего вычисления среднего арифметического значения вектора </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sum</td><td>сумма векторов передаваемых клиентом </td></tr>
+    <tr><td class="paramname">vect</td><td>вектор который передаёт клиент details </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Происходит вычисление суммы элементов вектора. для последующего составления среднего арифметического значения вектора Происходит суумирование с помощью последовательного сложения каждого элемента вектора, и запись данной суммы в отдельную переменную </p><div class="fragment"><div class="line">sum = sum + vect;</div>
+</div><!-- fragment --> <dl class="section return"><dt>Возвращает</dt><dd>сумма элементов вектора </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="header_8h_source.html">header.h</a></li>
+<li><a class="el" href="asd_8cpp.html">asd.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
